@@ -16,9 +16,9 @@ difference() {
 			linear_extrude(height = 6.5, center = false, convexity = 10, $fn=20)
 				import (file = "columna.dxf", layer = "columnas-planta-taladros");
 
-		color("Red")
+		color("Blue")
 		rotate([0,90,0])
-			translate([-(6.25+3.75),0,0])
+			translate([-(4.5+2),0,0])
 				linear_extrude(height = 6.5, center = false, convexity = 0, $fn=20)
 					import (file = "columna.dxf", layer = "columnas-perfil-izq-taladros");
 
